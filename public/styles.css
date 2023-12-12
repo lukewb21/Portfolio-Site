@@ -1,0 +1,46 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+#main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: auto; 
+}
+
+#links {
+    background-color: #FFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+}
+
+#linkedin {
+    border: 5px solid #fff;
+    align-self: left;
+}
+
+#github {
+    border: 5px solid #fff;
+    align-self: right;
+}
